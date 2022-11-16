@@ -1,12 +1,15 @@
 import Head from "next/head";
 import Link from "next/link";
-import Date from "../components/date";
+
 import Layout, { siteTitle } from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
-import utilsStyles from "../styles/utils.module.css";
-import react from "react";
+
+import Date from "../components/date";
 import Projects from "../components/projects";
-import Skillset from "../components/skillset";
+import TechStack from "../components/tech-stack";
+import WorkExperience from "../components/work-experience";
+
+import utilsStyles from "../styles/utils.module.css";
 
 // Fetch external data (file system) and pre-rendered index page with the data from /posts/
 // Static Generation is the pre-rendering method that generates the HTML at build time. The pre-rendered HTML is then reused on each request.
@@ -39,64 +42,9 @@ export default function Home({ allPostsData }) {
         </p>
       </section>
 
-      <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
-        <h2 className={utilsStyles.headingLg}>Skillset</h2>
-
-        <Skillset />
-      </section>
-
-      <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
-        <h2 className={utilsStyles.headingLg}>Projects</h2>
-
-        <Projects />
-      </section>
-
-      <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
-        <h2 className={utilsStyles.headingLg}>Work & Experience</h2>
-        <ul className={utilsStyles.list}>
-          <li className={utilsStyles.listItem}>
-            #100Devs Agency
-            <br />
-            <div className={utilsStyles.lightText}>Software Engineer</div>
-            <div className={utilsStyles.lightTextDate}>2021 - present</div>
-            <p className={utilsStyles.lightText}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
-              et tortor at risus. Pretium lectus quam id leo. Non consectetur a
-              erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
-              aliquam id diam maecenas ultricies.
-            </p>
-          </li>
-
-          <li className={utilsStyles.listItem}>
-            Curology, Inc.
-            <br />
-            <div className={utilsStyles.lightText}>Senior Accountant</div>
-            <div className={utilsStyles.lightTextDate}>2019 - 2021</div>
-            <p className={utilsStyles.lightText}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
-              et tortor at risus. Pretium lectus quam id leo. Non consectetur a
-              erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
-              aliquam id diam maecenas ultricies.
-            </p>
-          </li>
-
-          <li className={utilsStyles.listItem}>
-            Grant Thornton LLP
-            <br />
-            <div className={utilsStyles.lightText}>Senior Audit Associate</div>
-            <div className={utilsStyles.lightTextDate}>2016 - 2019</div>
-            <p className={utilsStyles.lightText}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
-              et tortor at risus. Pretium lectus quam id leo. Non consectetur a
-              erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
-              aliquam id diam maecenas ultricies.
-            </p>
-          </li>
-        </ul>
-      </section>
+      <TechStack />
+      <Projects />
+      <WorkExperience />
 
       {/* <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
         <h2 className={utilsStyles.headingLg}>Blog</h2>

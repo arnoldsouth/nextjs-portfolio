@@ -26,6 +26,7 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  margin: 1rem 0;
 }
 
 .borderCircle {
@@ -47,7 +48,18 @@
 }
 
 .listItem {
-  margin: 0 0 1.25rem;
+  margin: 0 1rem 1.25rem;
+}
+
+.listItemHeader {
+  margin: 0 1rem 1.25rem;
+  font-size: 1.2rem;
+  color: #dda78e;
+}
+
+.listItemDetail {
+  color: #000;
+  font-size: 0.8rem;
 }
 
 .lightText {

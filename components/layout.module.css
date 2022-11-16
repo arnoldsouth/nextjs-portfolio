@@ -88,7 +88,7 @@
   }
 }
 
-.iconSkillset {
+.iconTechStack {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -105,22 +105,22 @@
   max-width: 4.5rem;
 }
 
-.iconSkillset:hover,
-.iconSkillset:focus,
-.iconSkillset:active {
+.iconTechStack:hover,
+.iconTechStack:focus,
+.iconTechStack:active {
   color: #dda78e;
   border-color: #dda78e;
   text-decoration: none;
 }
 
-.iconSkillset p {
+.iconTechStack p {
   margin: 0;
   font-size: 0.75rem;
   line-height: 2;
 }
 
 @media (prefers-color-scheme: dark) {
-  .iconSkillset,
+  .iconTechStack,
   .footer {
     border-color: #222;
   }

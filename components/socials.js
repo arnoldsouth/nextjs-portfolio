@@ -1,19 +1,14 @@
-import Image from "next/image";
-
 import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 import { CgNotes } from "react-icons/cg";
 import { GrMail } from "react-icons/gr";
 
 import layoutStyles from "./layout.module.css";
 
-import utilsStyles from "../styles/utils.module.css";
-
 export default function Socials() {
   return (
     <div className={layoutStyles.grid}>
       <div>
         <a
-          // className={`${layoutStyles.iconSocials} ${layoutStyles.grid}`}
           className={layoutStyles.iconSocials}
           target="_blank"
           href="https://github.com/arnoldsouth/"
@@ -24,7 +19,6 @@ export default function Socials() {
 
       <div>
         <a
-          // className={`${layoutStyles.iconSocials} ${layoutStyles.grid}`}
           className={layoutStyles.iconSocials}
           target="_blank"
           href="https://www.linkedin.com/in/arnoldsouth/"
@@ -35,7 +29,6 @@ export default function Socials() {
 
       <div>
         <a
-          // className={`${layoutStyles.iconSocials} ${layoutStyles.grid}`}
           className={layoutStyles.iconSocials}
           target="_blank"
           href="https://twitter.com/arnold_rip/"
@@ -46,7 +39,6 @@ export default function Socials() {
 
       <div>
         <a
-          // className={`${layoutStyles.iconSocials} ${layoutStyles.grid}`}
           className={layoutStyles.iconSocials}
           target="_blank"
           href="https://docs.google.com/document/d/1UXpZQqikA8QX5kw-DS8WyAGVdN3wi6ts/edit?usp=sharing&ouid=104290255129280048353&rtpof=true&sd=true"
@@ -57,7 +49,6 @@ export default function Socials() {
 
       <div>
         <a
-          // className={`${layoutStyles.iconSocials} ${layoutStyles.grid}`}
           className={layoutStyles.iconSocials}
           target="_blank"
           href="mailto:arnoldsouth@gmail.com"
