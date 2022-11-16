@@ -1,47 +1,51 @@
-import utilsStyles from "../styles/utils.module.css";
+import layoutStyles from "./layout.module.css";
+// import utilsStyles from "../styles/utils.module.css";
 
 export default function Projects() {
   return (
-    <div className={utilsStyles.grid}>
+    <div className={layoutStyles.grid}>
       <a
-        href="https://chowstagram.netlify.app/"
-        className={utilsStyles.card}
+        className={layoutStyles.card}
         target="_blank"
+        href="https://chowstagram.netlify.app/"
       >
         <h1>chowstagram &rarr;</h1>
         <p>a simple photo sharing web app for lovers of dogs and food</p>
       </a>
 
       <a
-        href="https://chowstagram.netlify.app/"
-        className={utilsStyles.card}
+        className={layoutStyles.card}
         target="_blank"
-      >
-        <h1>helpmeCOOK &rarr;</h1>
-        <p>a recipe finder for cookers, bakers, and eaters</p>
-      </a>
-
-      <a
-        href="https://chowstagram.netlify.app/"
-        className={utilsStyles.card}
-        target="_blank"
+        href="https://github.com/arnoldsouth/riot-api"
       >
         <h1>statistiqs &rarr;</h1>
         <p>
-          simple data requests to riot api to obtain player stats for riot
-          games' games
+          a web app used to obtain game and player data for riot games' game
+          library
         </p>
       </a>
 
       <a
-        href="https://chowstagram.netlify.app/"
-        className={utilsStyles.card}
+        className={layoutStyles.card}
         target="_blank"
+        href="https://helpmecook.netlify.app/"
+      >
+        <h1>helpmeCOOK &rarr;</h1>
+        <p>
+          a web app used to find, bookmark, create, and save your favorite
+          recipes
+        </p>
+      </a>
+
+      <a
+        className={layoutStyles.card}
+        target="_blank"
+        href=""
       >
         <h1>personal blog &rarr;</h1>
         <p>
-          a personal blogging website documenting my thoughts and experiences on
-          my journey to becoming a software engineer
+          a place for me to document my thoughts and experiences as a software
+          engineer
         </p>
       </a>
     </div>

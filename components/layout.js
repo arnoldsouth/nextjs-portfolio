@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "./layout.module.css";
+import layoutStyles from "./layout.module.css";
 import utilsStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ export const siteTitle = "aj SOUTHAMMAVONG";
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div className={layoutStyles.container}>
       <Head>
         <link
           rel="icon"
@@ -22,7 +22,7 @@ export default function Layout({ children, home }) {
         />
       </Head>
 
-      <header className={styles.header}>
+      <header className={layoutStyles.header}>
         {home ? (
           <>
             <Image
@@ -63,8 +63,8 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
 
       {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+        <div className={layoutStyles.backToHome}>
+          <Link href="/">← Back</Link>
         </div>
       )}
     </div>
