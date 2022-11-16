@@ -14,13 +14,13 @@ export default function WorkExperience() {
               Full Stack Developer
             </div>
             <div className={utilsStyles.lightTextDate}>2021 - present</div>
-            <p className={utilsStyles.listItemDetail}>
+            <div className={utilsStyles.listItemDetail}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
               et tortor at risus. Pretium lectus quam id leo. Non consectetur a
               erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
               aliquam id diam maecenas ultricies.
-            </p>
+            </div>
           </li>
 
           <li className={utilsStyles.listItemHeader}>
@@ -28,13 +28,13 @@ export default function WorkExperience() {
             <br />
             <div className={utilsStyles.listItemDetail}>Senior Accountant</div>
             <div className={utilsStyles.lightTextDate}>2019 - 2021</div>
-            <p className={utilsStyles.listItemDetail}>
+            <div className={utilsStyles.listItemDetail}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
               et tortor at risus. Pretium lectus quam id leo. Non consectetur a
               erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
               aliquam id diam maecenas ultricies.
-            </p>
+            </div>
           </li>
 
           <li className={utilsStyles.listItemHeader}>
@@ -44,13 +44,13 @@ export default function WorkExperience() {
               Senior Audit Associate
             </div>
             <div className={utilsStyles.lightTextDate}>2016 - 2019</div>
-            <p className={utilsStyles.listItemDetail}>
+            <div className={utilsStyles.listItemDetail}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
               et tortor at risus. Pretium lectus quam id leo. Non consectetur a
               erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
               aliquam id diam maecenas ultricies.
-            </p>
+            </div>
           </li>
         </ul>
       </section>
