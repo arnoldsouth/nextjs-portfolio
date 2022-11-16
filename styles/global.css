@@ -33,7 +33,8 @@ a {
 }
 
 a:hover {
-  color: #0070f3;
+  /* color: #0070f3; */
+  color: #dda78e;
   text-decoration: none;
 }
 

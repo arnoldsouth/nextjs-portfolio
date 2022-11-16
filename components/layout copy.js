@@ -3,7 +3,6 @@ import Image from "next/image";
 import layoutStyles from "./layout.module.css";
 import utilsStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import Socials from "./socials";
 
 const name = "aj southammavong";
 export const siteTitle = "ajSOUTHAMMAVONG";
@@ -26,8 +25,6 @@ export default function Layout({ children, home }) {
       <header className={layoutStyles.header}>
         {home ? (
           <>
-            <Socials />
-
             <Image
               priority
               src="/images/profile.jpg"
@@ -40,8 +37,6 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Socials />
-
             <Link href="/">
               <Image
                 priority

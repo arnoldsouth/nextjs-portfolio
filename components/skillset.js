@@ -1,9 +1,4 @@
-import Image from "next/image";
-
 import {
-  SiGithub,
-  SiLinkedin,
-  SiTwitter,
   SiJavascript,
   SiTypescript,
   SiReact,
@@ -20,10 +15,10 @@ import utilsStyles from "../styles/utils.module.css";
 export default function Skillset() {
   return (
     <div className={layoutStyles.grid}>
-      <div className={utilsStyles.icon}>
+      <div>
         <a
-          // className={`${layoutStyles.icon} ${layoutStyles.grid}`}
-          className={`${layoutStyles.icon}`}
+          // className={`${layoutStyles.iconSkillset} ${layoutStyles.grid}`}
+          className={layoutStyles.iconSkillset}
           target="_blank"
           href="https://jsdoc.app/"
         >
@@ -32,10 +27,10 @@ export default function Skillset() {
         </a>
       </div>
 
-      <div className={utilsStyles.icon}>
+      <div>
         <a
-          // className={`${layoutStyles.icon} ${layoutStyles.grid}`}
-          className={layoutStyles.icon}
+          // className={`${layoutStyles.iconSkillset} ${layoutStyles.grid}`}
+          className={layoutStyles.iconSkillset}
           target="_blank"
           href="https://www.reactjs.org/"
         >
@@ -44,10 +39,10 @@ export default function Skillset() {
         </a>
       </div>
 
-      <div className={utilsStyles.icon}>
+      <div>
         <a
-          // className={`${layoutStyles.icon} ${layoutStyles.grid}`}
-          className={layoutStyles.icon}
+          // className={`${layoutStyles.iconSkillset} ${layoutStyles.grid}`}
+          className={layoutStyles.iconSkillset}
           target="_blank"
           href="https://nextjs.org/"
         >
@@ -56,10 +51,10 @@ export default function Skillset() {
         </a>
       </div>
 
-      <div className={utilsStyles.icon}>
+      <div>
         <a
-          // className={`${layoutStyles.icon} ${layoutStyles.grid}`}
-          className={layoutStyles.icon}
+          // className={`${layoutStyles.iconSkillset} ${layoutStyles.grid}`}
+          className={layoutStyles.iconSkillset}
           target="_blank"
           href="https://nodejs.org/en/"
         >
@@ -68,10 +63,10 @@ export default function Skillset() {
         </a>
       </div>
 
-      <div className={utilsStyles.icon}>
+      <div>
         <a
-          // className={`${layoutStyles.icon} ${layoutStyles.grid}`}
-          className={layoutStyles.icon}
+          // className={`${layoutStyles.iconSkillset} ${layoutStyles.grid}`}
+          className={layoutStyles.iconSkillset}
           target="_blank"
           href="https://www.mongodb.com/"
         >
@@ -80,10 +75,10 @@ export default function Skillset() {
         </a>
       </div>
 
-      <div className={utilsStyles.icon}>
+      <div>
         <a
-          // className={`${layoutStyles.icon} ${layoutStyles.grid}`}
-          className={layoutStyles.icon}
+          // className={`${layoutStyles.iconSkillset} ${layoutStyles.grid}`}
+          className={layoutStyles.iconSkillset}
           target="_blank"
           href="https://www.postgresql.org/"
         >
@@ -93,16 +88,4 @@ export default function Skillset() {
       </div>
     </div>
   );
-}
-{
-  /* <ul
-            className={`${utilsStyles.list} ${utilsStyles.listItem} ${utilsStyles.lightText}`}
-          >
-            <li>javascript</li>
-            <li>react & nextjs</li>
-            <li>express</li>
-            <li>nodejs</li>
-            <li>nextjs</li>
-            <li>mongodb</li>
-          </ul> */
 }
