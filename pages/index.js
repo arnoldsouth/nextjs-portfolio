@@ -4,6 +4,8 @@ import Date from "../components/date";
 import Layout, { siteTitle } from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import utilsStyles from "../styles/utils.module.css";
+import react from "react";
+import Projects from "../components/projects";
 
 // Fetch external data (file system) and pre-rendered index page with the data from /posts/
 // Static Generation is the pre-rendering method that generates the HTML at build time. The pre-rendered HTML is then reused on each request.
@@ -28,6 +30,43 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
+      <section className={utilsStyles.headingMd}>
+        <p>
+          i’m aj, a software engineer with a background in public accounting and
+          finance currently living in the bay.
+        </p>
+      </section>
+
+      <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
+        <h2 className={utilsStyles.headingLg}>Skillset</h2>
+
+        <small>
+          <ul
+            className={`${utilsStyles.list} ${utilsStyles.listItem} ${utilsStyles.lightText}`}
+          >
+            <li>javascript</li>
+            <li>react & nextjs</li>
+            <li>express</li>
+            <li>nodejs</li>
+            <li>nextjs</li>
+            <li>mongodb</li>
+          </ul>
+        </small>
+      </section>
+
+      <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
+        <h2 className={utilsStyles.headingLg}>Projects</h2>
+
+        <Projects />
+
+        <ul className={`${utilsStyles.list} ${utilsStyles.listItem}`}>
+          <li>chowstagram</li>
+          <li>helpmeCOOK</li>
+          <li>statistiqs</li>
+        </ul>
+      </section>
+
       <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
         <h2 className={utilsStyles.headingLg}>Blog</h2>
         <ul className={utilsStyles.list}>
