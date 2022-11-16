@@ -52,9 +52,11 @@
 
 .lightText {
   color: #666;
+  font-size: 0.8rem;
 }
 
 .lightTextDate {
   color: #888;
   font-size: 0.75rem;
+  font-style: italic;
 }

@@ -10,7 +10,7 @@ export default function Projects() {
         href="https://chowstagram.netlify.app/"
       >
         <h1>chowstagram &rarr;</h1>
-        <p>a simple photo sharing web app for lovers of dogs and food</p>
+        <p>a photo sharing web app for lovers of dogs and food</p>
       </a>
 
       <a
@@ -42,7 +42,7 @@ export default function Projects() {
         target="_blank"
         href=""
       >
-        <h1>personal blog &rarr;</h1>
+        <h1>blog &rarr;</h1>
         <p>
           a place for me to document my thoughts and experiences as a software
           engineer
