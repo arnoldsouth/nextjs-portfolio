@@ -14,9 +14,9 @@
 //   return { paths, fallback: false };
 // }
 
-import { getAllPostIds, getPostData } from "../../lib/posts";
+import { getAllPostIds, getPostData } from '../../lib/posts';
 
-import utilsStyles from "../../styles/utils.module.css";
+import utilsStyles from '../../styles/utils.module.css';
 
 // 3. getStaticProps which fetches necessary data for the post with `id`
 // The post page is now using the getPostData function in getStaticProps to get the post data and return it as props
@@ -49,9 +49,9 @@ export async function getStaticPaths() {
 }
 
 // 1. React Component to render this page
-import Layout from "../../components/layout";
-import Head from "next/head";
-import Date from "../../components/date";
+import Layout from '../../components/layout';
+import Head from 'next/head';
+import Date from '../../components/date';
 
 export default function Post({ postData }) {
   return (

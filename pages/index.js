@@ -1,15 +1,15 @@
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head';
+import Link from 'next/link';
 
-import Layout, { siteTitle } from "../components/layout";
-import { getSortedPostsData } from "../lib/posts";
+import Layout, { siteTitle } from '../components/layout';
+import { getSortedPostsData } from '../lib/posts';
 
-import Date from "../components/date";
-import Projects from "../components/projects";
-import TechStack from "../components/tech-stack";
-import WorkExperience from "../components/work-experience";
+import Date from '../components/date';
+import Projects from '../components/projects';
+import TechStack from '../components/tech-stack';
+import WorkExperience from '../components/work-experience';
 
-import utilsStyles from "../styles/utils.module.css";
+import utilsStyles from '../styles/utils.module.css';
 
 // Fetch external data (file system) and pre-rendered index page with the data from /posts/
 // Static Generation is the pre-rendering method that generates the HTML at build time. The pre-rendered HTML is then reused on each request.
