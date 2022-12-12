@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
       <section className={utilsStyles.headingMd}>
         {/* <p className={utilsStyles.listItem}> */}
         <p>
-          i’m aj, a full stack developer with a background in public accounting
+          i'm aj, a full stack developer with a background in public accounting
           and finance living in the bay.
         </p>
       </section>

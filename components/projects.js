@@ -1,5 +1,5 @@
-import layoutStyles from "./layout.module.css";
-import utilsStyles from "../styles/utils.module.css";
+import layoutStyles from './layout.module.css';
+import utilsStyles from '../styles/utils.module.css';
 
 export default function Projects() {
   return (
@@ -14,7 +14,7 @@ export default function Projects() {
           href="https://chowstagram.netlify.app/"
         >
           <h1>chowstagram &rarr;</h1>
-          <p>a photo sharing web app for lovers of dogs and food</p>
+          <p>a photo sharing web app for lovers of dogs and food.</p>
         </a>
 
         <a
@@ -24,8 +24,8 @@ export default function Projects() {
         >
           <h1>statistiqs &rarr;</h1>
           <p>
-            a web app used to obtain game and player data for riot games' game
-            library
+            a web app used to obtain game and player data for all video games
+            developed by Riot Games, Inc.
           </p>
         </a>
 
@@ -36,8 +36,8 @@ export default function Projects() {
         >
           <h1>helpmeCOOK &rarr;</h1>
           <p>
-            a web app used to find, bookmark, create, and save your favorite
-            recipes
+            a web app used to find, create, bookmark, and save users’ favorite
+            recipes.
           </p>
         </a>
 
@@ -49,7 +49,7 @@ export default function Projects() {
           <h1>blog &rarr;</h1>
           <p>
             a place for me to document my thoughts and experiences as a software
-            engineer
+            engineer.
           </p>
         </a>
       </div>

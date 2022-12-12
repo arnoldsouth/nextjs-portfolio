@@ -64,9 +64,16 @@
   color: #dda78e;
 }
 
+.listItemTitle {
+  color: #000;
+  font-size: 0.8rem;
+  /* margin: 0 1rem 1.25rem; */
+}
+
 .listItemDetail {
   color: #000;
   font-size: 0.8rem;
+  margin: 0 0 1rem;
 }
 
 .lightText {

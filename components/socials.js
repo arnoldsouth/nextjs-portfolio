@@ -1,8 +1,8 @@
-import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
-import { CgNotes } from "react-icons/cg";
-import { GrMail } from "react-icons/gr";
+import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
+import { CgNotes } from 'react-icons/cg';
+import { GrMail } from 'react-icons/gr';
 
-import layoutStyles from "./layout.module.css";
+import layoutStyles from './layout.module.css';
 
 export default function Socials() {
   return (
@@ -41,7 +41,7 @@ export default function Socials() {
         <a
           className={layoutStyles.iconSocials}
           target="_blank"
-          href="https://docs.google.com/document/d/1UXpZQqikA8QX5kw-DS8WyAGVdN3wi6ts/edit?usp=sharing&ouid=104290255129280048353&rtpof=true&sd=true"
+          href="https://docs.google.com/document/d/1t39zk2rieZiJPRGi1V9JeiP3k0N9C-LpL-WvBmolCXg/edit?usp=sharing"
         >
           <CgNotes />
         </a>

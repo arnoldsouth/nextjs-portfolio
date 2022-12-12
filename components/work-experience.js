@@ -1,4 +1,4 @@
-import utilsStyles from "../styles/utils.module.css";
+import utilsStyles from '../styles/utils.module.css';
 
 export default function WorkExperience() {
   return (
@@ -10,46 +10,60 @@ export default function WorkExperience() {
           <li className={utilsStyles.listItemHeader}>
             #100Devs Agency
             <br />
+            <div className={utilsStyles.listItemTitle}>Full Stack Engineer</div>
+            <div className={utilsStyles.lightTextDate}>2021 - Present</div>
             <div className={utilsStyles.listItemDetail}>
-              Full Stack Developer
-            </div>
-            <div className={utilsStyles.lightTextDate}>2021 - present</div>
-            <div className={utilsStyles.listItemDetail}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
-              et tortor at risus. Pretium lectus quam id leo. Non consectetur a
-              erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
-              aliquam id diam maecenas ultricies.
+              <ul>
+                <li>
+                  Learned how to build web applications and other MVPs for
+                  clients using HTML, CSS, JavaScript, TypeScript, React.js,
+                  Node.js, Express, and MongoDB.
+                </li>
+              </ul>
             </div>
           </li>
 
           <li className={utilsStyles.listItemHeader}>
             Curology, Inc.
             <br />
-            <div className={utilsStyles.listItemDetail}>Senior Accountant</div>
+            <div className={utilsStyles.listItemTitle}>Senior Accountant</div>
             <div className={utilsStyles.lightTextDate}>2019 - 2021</div>
             <div className={utilsStyles.listItemDetail}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
-              et tortor at risus. Pretium lectus quam id leo. Non consectetur a
-              erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
-              aliquam id diam maecenas ultricies.
+              <ul>
+                <li>
+                  Partnered directly with our supply chain, warehouse
+                  operations, and BizOps team members by creating, developing,
+                  and implementing new cost accounting and inventory management
+                  systems, processes, and policies.
+                </li>
+                <li>
+                  Performed and managed month-end close activities for
+                  inventory, COGS, fixed assets, AP, and AR, including journal
+                  entries, account reconciliations, and roll-forwards with a
+                  focus on reducing days to close.
+                </li>
+              </ul>
             </div>
           </li>
 
           <li className={utilsStyles.listItemHeader}>
             Grant Thornton LLP
             <br />
-            <div className={utilsStyles.listItemDetail}>
+            <div className={utilsStyles.listItemTitle}>
               Senior Audit Associate
             </div>
             <div className={utilsStyles.lightTextDate}>2016 - 2019</div>
             <div className={utilsStyles.listItemDetail}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
-              et tortor at risus. Pretium lectus quam id leo. Non consectetur a
-              erat nam. Laoreet sit amet cursus sit amet dictum sit. Amet
-              aliquam id diam maecenas ultricies.
+              <ul>
+                <li>
+                  Conducted integrated and non-integrated financial statement
+                  audits for public and private clients.
+                </li>
+                <li>
+                  Led audit engagements by mentoring and delegating tasks to
+                  associates and interns.
+                </li>
+              </ul>
             </div>
           </li>
         </ul>
