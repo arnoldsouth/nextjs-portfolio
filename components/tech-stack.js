@@ -6,11 +6,11 @@ import {
   SiNodedotjs,
   SiMongodb,
   SiPostgresql,
-} from "react-icons/si";
+} from 'react-icons/si';
 
-import layoutStyles from "./layout.module.css";
+import layoutStyles from './layout.module.css';
 
-import utilsStyles from "../styles/utils.module.css";
+import utilsStyles from '../styles/utils.module.css';
 
 export default function TechStack() {
   return (
@@ -18,6 +18,7 @@ export default function TechStack() {
       <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
         <h2 className={utilsStyles.headingLg}>Tech Stack</h2>
       </section>
+
       <div className={layoutStyles.grid}>
         <div>
           <a
@@ -28,6 +29,18 @@ export default function TechStack() {
           >
             <SiJavascript />
             <p>JavaScript</p>
+          </a>
+        </div>
+
+        <div>
+          <a
+            // className={`${layoutStyles.iconTechStack} ${layoutStyles.grid}`}
+            className={layoutStyles.iconTechStack}
+            target="_blank"
+            href="https://jsdoc.app/"
+          >
+            <SiTypescript />
+            <p>TypeScript</p>
           </a>
         </div>
 
