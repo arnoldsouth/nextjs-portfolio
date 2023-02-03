@@ -13,7 +13,8 @@
 
 .backToHome {
   margin: 3rem 0 0;
-  color: #dda78e;
+  /* color: #dda78e; */
+  color: #7275a0;
 }
 
 .backToHome:hover,
@@ -56,8 +57,10 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #dda78e;
-  border-color: #dda78e;
+  /* color: #dda78e; */
+  color: #7275a0;
+  /* border-color: #dda78e; */
+  border-color: #7275a0;
   text-decoration: none;
 }
 
@@ -108,8 +111,10 @@
 .iconTechStack:hover,
 .iconTechStack:focus,
 .iconTechStack:active {
-  color: #dda78e;
-  border-color: #dda78e;
+  /* color: #dda78e; */
+  color: #7275a0;
+  /* border-color: #dda78e; */
+  border-color: #7275a0;
   text-decoration: none;
 }
 
@@ -140,8 +145,10 @@
 
   margin: 0 0.5rem 1rem;
   /* color: inherit; */
-  color: #dda78e;
-  border: 0.0625rem solid #dda78e;
+  /* color: #dda78e; */
+  color: #7275a0;
+  /* border: 0.0625rem solid #dda78e; */
+  border: 0.0625rem solid #7275a0;
   text-decoration: none;
   padding: 0.5rem;
   /* border: 0.0625rem solid #eaeaea; */
@@ -161,7 +168,8 @@
 @media (prefers-color-scheme: dark) {
   .iconSocials,
   .footer {
-    border-color: #dda78e;
+    /* border-color: #dda78e; */
+    border-color: #7275a0;
   }
   .code {
     background: #111;

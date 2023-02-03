@@ -1,14 +1,12 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Layout, { siteTitle } from '../components/layout';
-import { getSortedPostsData } from '../lib/posts';
-
 import Date from '../components/date';
+import Layout, { siteTitle } from '../components/layout';
 import Projects from '../components/projects';
 import TechStack from '../components/tech-stack';
 import WorkExperience from '../components/work-experience';
-
+import { getSortedPostsData } from '../lib/posts';
 import utilsStyles from '../styles/utils.module.css';
 
 // Fetch external data (file system) and pre-rendered index page with the data from /posts/
@@ -38,8 +36,8 @@ export default function Home({ allPostsData }) {
       <section className={utilsStyles.headingMd}>
         {/* <p className={utilsStyles.listItem}> */}
         <p>
-          i'm aj, a full stack developer with a background in public accounting
-          and finance living in the bay.
+          i'm aj, a self/community-taught full stack web developer living in the
+          bay with a background in public accounting and finance.
         </p>
       </section>
 

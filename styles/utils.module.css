@@ -3,7 +3,7 @@
   font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 800;
-  letter-spacing: -0.05rem;
+  /* letter-spacing: -0.05rem; */
   margin: 1rem 0;
 }
 
@@ -12,7 +12,7 @@
   font-size: 2rem;
   line-height: 1.3;
   font-weight: 800;
-  letter-spacing: -0.05rem;
+  /* letter-spacing: -0.05rem; */
   margin: 1rem 0;
 }
 
@@ -20,7 +20,7 @@
   font-family: Bebas Neue;
   font-size: 1.5rem;
   line-height: 1.4;
-  letter-spacing: -0.05rem;
+  /* letter-spacing: -0.05rem; */
   margin: 1rem 0;
 }
 
@@ -34,6 +34,13 @@
   /* font-size: 1.2rem; */
   /* line-height: 1.5; */
   margin: 0 1rem 1.25rem;
+}
+
+.headingSm {
+  font-family: Bebas Neue;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
 }
 
 .borderCircle {
@@ -61,7 +68,8 @@
 .listItemHeader {
   margin: 0 1rem 1.25rem;
   font-size: 1.2rem;
-  color: #dda78e;
+  /* color: #dda78e; */
+  color: #7275a0;
 }
 
 .listItemTitle {

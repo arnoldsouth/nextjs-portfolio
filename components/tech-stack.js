@@ -1,16 +1,15 @@
 import {
   SiJavascript,
-  SiTypescript,
-  SiReact,
+  SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
-  SiMongodb,
   SiPostgresql,
+  SiReact,
+  SiTypescript,
 } from 'react-icons/si';
 
-import layoutStyles from './layout.module.css';
-
 import utilsStyles from '../styles/utils.module.css';
+import layoutStyles from './layout.module.css';
 
 export default function TechStack() {
   return (
