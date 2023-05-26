@@ -16,36 +16,38 @@ import utilsStyles from '../styles/utils.module.css';
 // In production, getStaticProps runs at build time. However, this behavior can be enhanced using the fallback key returned by getStaticPaths
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+    const allPostsData = getSortedPostsData();
 
-  return {
-    // props will be passed to the page component as props
-    props: {
-      allPostsData,
-    },
-  };
+    return {
+        // props will be passed to the page component as props
+        props: {
+            allPostsData,
+        },
+    };
 }
 
 export default function Home({ allPostsData }) {
-  return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+    return (
+        <Layout home>
+            <Head>
+                <title>{siteTitle}</title>
+            </Head>
 
-      <section className={utilsStyles.headingMd}>
-        {/* <p className={utilsStyles.listItem}> */}
-        <p>
-          i'm aj, a self/community-taught full stack web developer living in the
-          bay with a background in public accounting and finance.
-        </p>
-      </section>
+            <section className={utilsStyles.headingMd}>
+                {/* <p className={utilsStyles.listItem}> */}
+                <p>
+                    i'm an accountant turned full stack web developer living in
+                    the bay area. i strive to create beautiful, functional, and
+                    efficient websites and applications that help people and
+                    businesses achieve their goals.
+                </p>
+            </section>
 
-      <TechStack />
-      <Projects />
-      <WorkExperience />
+            <TechStack />
+            <Projects />
+            <WorkExperience />
 
-      {/* <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
+            {/* <section className={`${utilsStyles.headingMd} ${utilsStyles.padding1px}`}>
         <h2 className={utilsStyles.headingLg}>Blog</h2>
         <ul className={utilsStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -62,8 +64,8 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section> */}
-    </Layout>
-  );
+        </Layout>
+    );
 }
 
 // Fetch External API or Query Database
